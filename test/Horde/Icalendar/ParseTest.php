@@ -5,7 +5,7 @@
  * @subpackage UnitTests
  */
 namespace Horde\Icalendar;
-use \Horde_Test_Case;
+use \Horde_Test_Case as TestCase;
 use \Horde_Icalendar;
 use \Horde_Date;
 /**
@@ -13,7 +13,7 @@ use \Horde_Date;
  * @package    Icalendar
  * @subpackage UnitTests
  */
-class ParseTest extends Horde_Test_Case
+class ParseTest extends TestCase
 {
     public function testEmptyData()
     {
